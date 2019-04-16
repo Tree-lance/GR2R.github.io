@@ -101,6 +101,12 @@ section{
   background: rgba(0,0,255,.7);
 }  
 
+ #product_description_container p.lead {
+    font-size:20px;
+    margin-left:0;
+    margin-right: 0;
+    width:100%;
+  }
 
 
 
