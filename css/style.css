@@ -105,7 +105,6 @@ section{
 
 
 
-
 /*SIde Nav Bar*/
 
 .side-nav{
@@ -125,7 +124,7 @@ section{
 .side-nav a{
 	padding: 10px 10px 10px 30px;
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 30px;
 	color: #ccc;
 	display: block;
 	transition: 0.3s;
@@ -335,8 +334,8 @@ cursor: pointer;
 
 .mc-field-group{
 color: #132323;
-margin-left: 1em;
-margin-right: 1em;
+margin-left: 8em;
+margin-right: 8em;
 text-align: left;
 position: center;
 display: inline-block;
@@ -347,6 +346,7 @@ display: inline-block;
 
 .mce-LName{
 	position: center;
+
   
 }
 
@@ -901,7 +901,7 @@ text-align: left;
   }
 
   #product_description_container p.lead {
-    font-size:16px;
+    font-size:20px;
     margin-left:0;
     margin-right: 0;
     width:100%;
@@ -1092,6 +1092,12 @@ background-size: cover;
 .mc_embed_signup{
 	position: fixed;
 }
+.mc-field-group{
+max-height: 50%;
+max-width: 50%;
+
+
+}
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
@@ -1232,7 +1238,12 @@ width: 300px;
 .mc_embed_signup{
 	position: center;
 	}
+.mc-field-group{
+max-height: 50%;
+max-width: 50%;
 
+
+}
 
 /*Large screen Contact page*/
 
@@ -1266,6 +1277,19 @@ width: 100%;
 
 
 } 
+
+.mc-field-group{
+max-height: 50%;
+max-width: 50%;
+
+
+}
+.contact{
+	text-align: center;
+	display: inline-block;
+	max-width: 50px;
+}
+}
 
 @media(max-width: 600px){
 
@@ -1306,3 +1330,8 @@ height: 90%;
 width: 90%;
 
 } 
+.contact{
+	text-align: center;
+	display: inline-block;
+	max-width: 700px;
+}
