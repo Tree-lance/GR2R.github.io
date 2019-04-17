@@ -1138,6 +1138,25 @@ max-width: 50%;
   font-size: 17px;
   
 }
+.side-nav a{
+	padding: 10px 10px 10px 30px;
+	text-decoration: none;
+	font-size: 90px;
+	color: #ccc;
+	display: block;
+	transition: 0.3s;
+
+}
+
+
+.side-nav .btn-close{
+position: absolute;
+top: 0;
+right: 22px;
+font-size: 150px;
+margin-left: 50px;
+
+}
 .btn{
 	display: none;
 	color: blue;
@@ -1198,7 +1217,7 @@ width: 300px;
     color: #f4f4f4;
 }
 .button.large {
-    font-size: 1.25rem;
+    font-size: 3.25rem;
 
 }
 
